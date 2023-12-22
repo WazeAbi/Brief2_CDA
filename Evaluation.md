@@ -1,36 +1,39 @@
-# Grille d'Evalutation : 
+# Grille d'évaluation :
 
-### Table "Actor"
-| Champ          | Type de Données    | Description                             |
-|----------------|---------------------|-----------------------------------------|
-| id_Actor       | Numérique           | Identifiant unique de l'acteur.         |
-| firstname      | Alphabétique        | Prénom de l'acteur.                     |
-| lastname       | Alphabétique        | Nom de l'acteur.                        |
-| birthdate      | Numérique           | Date de naissance de l'acteur.          |
-| role           | Alphanumérique      | Rôle de l'acteur dans le film.         |
-### Table "User"
-| Champ          | Type de Données    | Description                                       |
-|----------------|---------------------|---------------------------------------------------|
-| id_User        | Numérique           | Identifiant unique de l'utilisateur.              |
-| firstname      | Alphabétique        | Prénom de l'utilisateur.                          |
-| lastname       | Alphabétique        | Nom de l'utilisateur.                             |
-| email          | Alphanumérique      | Adresse e-mail de l'utilisateur.                  |
-| password       | Alphanumérique      | Mot de passe de l'utilisateur (sécurisé).         |
-| user_role      | Booléen             | Rôle de l'utilisateur (administrateur, etc.).     |
-| fav_movie      | Booléen             | Film préféré de l'utilisateur (oui/non).           |
+## MERISE : Dictionnaire/ MCD / MLD /MPD 
 
-### Table "Movie"
-| Champ          | Type de Données    | Description                             |
-|----------------|---------------------|-----------------------------------------|
-| id_Movie       | Numérique           | Identifiant unique du film.             |
-| title          | Alphanumérique      | Titre du film.                          |
-| duration       | Numérique           | Durée du film en minutes.              |
-| date           | Numérique           | Date de sortie du film.                |
+- [ ] Dictionnaire  
+- [ ] MCD
+- [ ] MLD
+- [ ] MPD
 
-### Table "Director"
-| Champ          | Type de Données    | Description                             |
-|----------------|---------------------|-----------------------------------------|
-| id_Director    | Numérique           | Identifiant unique du réalisateur.     |
-| firstname      | Alphabétique        | Prénom du réalisateur.                  |
-| lastname       | Alphabétique        | Nom du réalisateur.                     |
+## Structure de la base de donnée
+
+- [ ] Film
+- [ ] Acteur
+- [ ] Réalisateur
+- [ ] Utilisateur
+
+## Requêtes SQL
+- [ ] Les titres et dates de sortie des films du plus récent au plus ancien
+- [ ] Les noms, prénoms et âges des acteurs/actrices de plus de 30 ans dans l'ordre alphabétique
+- [ ] La liste des acteurs/actrices principaux pour un film donné
+- [ ] La liste des films pour un acteur/actrice donné
+- [ ] Ajouter un film
+- [ ] Ajouter un acteur/actrice
+- [ ] Modifier un film
+- [ ] Supprimer un acteur/actrice
+- [ ] Afficher les 3 derniers acteurs/actrices ajouté(e)s
+## Manipulation avancées 
+
+- [ ] Environnement Docker
+- [ ] Trigger 
+- [ ] Admin BDD 
+- [ ] Entrée base de donées Création et modification 
+
+## Critères de performance 
+
+- [ ] Récupération facile des données
+- [ ] Exactitude des relations entre les tables
+- [ ] README.MD
 
