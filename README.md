@@ -41,7 +41,7 @@ git clone https://github.com/WazeAbi/Brief2_CDA.git
 2. Launch the docker-compose 🚀 : <br>
     * Go on your new directory previously created with the terminal.
 ```bash
-cd path/to/your/folder/merise
+cd path/to/your/folder/docker
 ```
 
 Now Launch it 
